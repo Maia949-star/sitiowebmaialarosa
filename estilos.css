@@ -1,0 +1,862 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+img{
+    max-width: 100%;
+}
+.anchos{
+    width: 400px;
+}
+
+    /*todo este css se ajusta a SAMSUNG GALAXY S8 formato mobile*/
+
+
+    .principio{
+        width: 70px;
+       
+        margin-top: 99px;
+        margin-left: 450px 
+        
+    }
+    .redes{
+        
+        margin-left: 650px;
+        margin-top: 90px;
+       
+    }
+   
+    
+   
+    .lista{
+        margin-left: 50;
+        margin-top: 40px
+    }
+    
+        
+    .fotobeige{
+    width: 400px;
+    
+    margin-left: 290px;
+    }
+
+    
+    .imagendos{
+        width: 400px;
+    
+        margin-left: 290px;
+    }
+    .imagentres{
+        width: 400px;
+    
+    margin-left: 290px;
+       
+    }
+  
+    .fotobeige{
+         background-image: url(fotobeige.jpeg);
+      text-align: center;
+        color: black;
+        background-position: center center;
+    }
+  
+    
+        
+    
+    .print{
+        width: 450px;
+        height: 450px;
+        display: flex; flex-direction: row; 
+        margin-left:460px;
+    }
+    .cherry{
+        width: 400px;
+        height: 400px;
+        
+        margin-right: 500px;
+    }
+    .contenedor{
+        display: flex;
+        text-align: center;
+    }
+   
+    .cuero{
+        width: 450px;
+        height: 450px;
+       
+       
+    }
+    
+    
+    .campera{
+        
+        width: 450px;
+        height: 450px;
+       
+       
+       
+    }
+     
+    .straples{
+        width: 450px;
+        height: 450px;
+       
+        
+    }
+ 
+   
+    .parteuno{
+        text-align: center;
+    }
+    
+   
+    .minigris{
+        width: 450px;
+        height: 450px;
+        display: flex; flex-direction: row; 
+       
+    }
+    
+    .parteuno{
+        background-image: url(fotobeige.jpeg);
+        background-position: center center;
+        background-size: cover;
+           text-align: center;
+           color: black;
+    }
+   
+    .chiquito{
+        width: 30px;
+        margin-left: 450;
+        margin-top: -45;
+    }
+    .robot{
+       
+        margin-left: 520;
+        margin-top: -45;
+    }
+    .elemento{
+        margin-left: 580;
+        margin-top: 20;
+    }
+    .enviar{
+        margin-left: 593;
+        margin-top: -35;
+    }
+    body{
+        font-family: "KoHo", sans-serif;
+    }
+    .irresistible{
+        margin-top: -190px;
+        font-size: 50px;
+       
+        color: #ccc;
+    }
+    .video{
+        width: 10px;
+        height: 10px;
+        margin-top: 10px;
+    }
+    .new{
+        font-size: 60px;
+        
+        color: beige;
+        
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    header{
+        
+        align-items: center;
+    }
+    .nav{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       gap: 1rem;
+       flex-direction: column;
+       position: absolute;
+       top: 0px;
+       left: 0px;
+       padding: 2rem;
+       background-color: aliceblue;
+       bottom: 0px;
+       opacity: 0px;
+       visibility: hidden;
+       box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+    .nav.visible{
+        opacity: 1px;
+        visibility: visible;
+    }
+
+    
+    .h2{
+      
+        line-height: 1;
+        padding: 1em;
+      text-align: center center;
+     font-size: 30px;
+     
+      text-align:left;
+
+     
+    }
+    
+    .h3{
+       color: cadetblue;
+    margin-top: 70px;
+        
+       margin-left: 50px;
+      
+    }
+
+    .h4{
+        margin-top: 100px;
+        text-align: center center;
+        text-align:left;
+        line-height: 1;
+       margin-left: 90px;
+       
+    }
+    
+    
+    
+   
+
+   .ropa{
+    text-align:center;
+    margin-top: 90px;
+   }
+    .dasy{
+    
+        text-align: center;
+        margin-top: 10px;
+        
+        
+        
+    
+    }
+    .kill{
+        text-align: center;
+      
+        margin-top: 20;
+       
+    }
+    
+   
+
+    .menu-btn {
+        display: none; 
+    }
+    .menu-icon {
+        cursor: pointer;
+        display: block;
+        padding: 10px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 999;
+        background-color: #fff;
+        border: 1px solid #000;
+        border-radius: 4px;
+        
+    }
+    .menu-icon span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin-bottom: 5px;
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: auto;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+        transition: right 0.3s ease;
+        padding: 0.5em;
+        
+       
+    }
+    .menu-btn:checked ~ .menu {
+        right: 0; 
+    }
+    .menu-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        
+    }
+    
+    .menu-nav li {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        font-size: 2em;
+        margin: 1em;
+    }
+    
+    .menu-nav li:last-child {
+        border-bottom: none;
+    }
+    
+    .menu-nav li a {
+        text-decoration: none;
+        color: #000;
+    }
+    nav {
+        text-align: center; /* Centrar el texto dentro del nav */
+    }
+    
+    
+   .h1{
+    text-align: center;
+    margin-left: 29px;
+   }
+    .tapado{
+      
+        text-align: center;
+        margin-top: 10px;
+       
+        
+    
+      
+    }
+    .setsastrero{
+        width: 450px;
+        height: 450px;
+        display: flex; flex-direction: row; 
+     
+    }
+    
+    .forma{
+        margin-left: -200px;
+       
+    }
+    .teddy{
+        text-align: center;
+    margin-top: 10px;
+    margin-left: 400px;
+    }
+    
+    
+    .paris{
+        text-align: center;
+        margin-top: 10px;
+      
+    }
+    .bler{
+        text-align: center;
+    margin-top: 10px;
+    
+    }
+    
+    .magenta{
+        text-align: center;
+    margin-top: 10px;
+    margin-left: 400px;
+    }
+   
+    .caja{
+        text-align: center;
+        margin-left:450;
+        margin-top: 60px;
+    }
+    .rectangulogris{
+        text-align: center;
+        margin-left:450;
+        margin-top: 20px;
+    }
+
+
+   
+   .visa{
+    width: 50px;
+   }
+.mastercars{
+    width: 50px;      
+}
+.pagofacil{
+   
+        
+    width: 50px;
+}
+.naranja{
+   
+        
+    width: 50px;
+}
+.cencosud{
+    
+    width: 50px;
+}
+.american{
+   
+       
+    width: 50px;
+}
+.rapipago{
+
+      
+    width: 50px;
+}
+.banelco{
+    
+        
+    width: 50px;
+}
+.oca{
+   
+        
+    width: 50px;
+}
+.correoargentino{
+   
+        
+    width: 50px;
+}
+.mail{
+    width: 40px; 
+}
+
+.ubicacion{
+    width: 40px;
+    margin-left: -220px;
+}
+
+.ubicacion{
+    margin-left: 1000;
+    margin-top: 30px;
+}
+
+
+.logowp{
+    width: 50px;
+   
+}
+.facebook{
+    width: 50px;
+    
+    margin-top: -95;
+}
+.instagram{
+    width: 50px;
+    
+}
+
+.imagen{  width: 40px;
+  margin-right: auto;
+  margin-left: 800px;
+
+
+}
+
+.comocomprar{
+    
+    margin-top: 70px;
+        
+    margin-left: 50px;
+    color: cadetblue;
+
+}
+.h1{
+    margin-top: 70px;
+        
+    margin-left: 50px;
+    color: cadetblue;
+}
+.elemento{
+    margin-left: 100;
+}
+.robot{
+    margin-top: -60;
+    margin-left: 30px;
+}
+.enviar{
+    margin-top: -50;
+    margin-left: 70px;
+}
+.chiquito{
+    margin-top: -40;
+    margin-left: 35;
+}
+.horizontal{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+   
+}
+.menu-btn {
+    display: none; 
+}
+.menu-icon {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    position: fixed;
+    top: 0%;
+    left: 20px;
+    z-index: 110px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    width: 5%;
+}
+
+.menu-icon span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin-bottom: 10px;
+}
+
+.menu {
+    position: fixed;
+    top: 45px;
+    left: 0px; 
+    width: 250px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    transition: left 0.3s ease;
+}
+
+.menu-btn:checked ~ .menu {
+    left: 0; 
+}
+
+.menu-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-nav li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    margin: 1em;
+}
+
+.menu-nav li:last-child {
+    border-bottom: none;
+}
+
+.menu-nav li a {
+    text-decoration: none;
+    color: #000;
+}
+div#general {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: burlywood;
+    margin-top: 50px;
+}
+div#caja{
+    
+    width: 400px;
+    height: 20px;
+   background-color: white;
+    margin-left: 260px
+
+   
+
+}
+div#bordo{
+    width: 400px;
+    height: 80px;
+   background-color: white;
+    margin-left: 260px
+
+}
+div#enviar{
+    width: 90px;
+    height: 10px;
+   background-color: white;
+    margin-left: 260px;
+    padding: 1em;
+    margin-top: 10px;
+    
+}
+.seccion{
+    margin-left: 278px;
+    margin-top: -25px;
+}
+.consultas{
+margin-top: -500px;
+margin-left:  260px; 
+}
+.nombres{
+    margin-left:  260px; 
+}
+.correo{
+    margin-left:  260px; 
+}
+.celular{
+    margin-left:  260px; 
+}
+.personas{
+    margin-left:  260px;
+
+}
+/*IPAD PRO-FORMATO TABLET*/
+@media (min-width: 1020px ){
+   
+    .comocomprar{
+        color: pink;
+    }
+    .h1{
+        color: pink;
+    }
+    .h3{
+        color: pink;
+    }
+    .h4{
+        font-size: 40px;
+       
+    }
+    div#general{
+        width: 800px;
+        height: 800px;
+        background-color: gray;
+    }
+    .consultas{
+        margin-top: -800px;
+        font-size: 50px;
+        margin-left: 250px ;
+        color: white;
+    }
+    .nombres{
+        font-size: 40px;
+        color:white;
+    }
+    .correo{
+        font-size: 40px;
+        color:white;
+    }
+    .celular{
+        font-size: 40px;
+        color: white;
+    }
+    .personas{
+        font-size: 40px;
+        color: white;
+    }
+    .seccion{
+        font-size: 40px;
+        color: white;
+    }
+    .imagen{
+        width: 60px;
+right: auto;
+    }
+    .principio{
+        width: 200px;
+        justify-content: center;
+    }
+    .fotobeige{
+        
+        margin-top: 100px;
+    }
+    .producto{
+        display: flex;
+        margin-left: -10px;
+        flex-wrap: nowrap;
+    }
+    .cherry{
+        padding: 0px;
+        border: 0px;;
+        box-sizing: border-box;
+        
+    }
+    .irresistible{
+color: white;
+    }
+    .new{
+color: white;
+    }
+}
+.Mounth{
+    font-size: 20px;
+    color: burlywood;
+    margin-top: 500px;
+    margin-left: -300px;
+}
+.tapado{
+    font-size: 20px;
+    color: burlywood;
+    margin-top: 500px;
+    margin-left: 150px;
+}
+.paris{
+    font-size: 20px;
+    color: burlywood;
+}
+.bler{
+    font-size: 20px;
+    color: burlywood;
+    margin-top: 460px;
+    margin-left: -260px;
+}
+.teddy{
+    color: burlywood;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+}
+.cherry{
+    width: 500px;
+    height: 500px;
+   
+}
+.setsastrero{
+    margin-left: 400px;
+}
+.programacion{
+    display: flex;
+}
+.magenta{
+    color: burlywood;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 450px;
+}
+.campera{
+    margin-left: 90px;
+}
+.minigris{
+    margin-left: 380px;
+    margin-top: -580px;
+}
+.teddy{
+    margin-left: -720px;
+    margin-top: 470px;
+}
+
+.horizontal{
+    margin-top: 400px;
+}
+.h2{
+    font-size: 20px;
+}
+/* FORMATO COMPUTADORA* NEST HUB MAX*/
+@media (min-width:1280px){
+   .imagen{
+   margin-right: 1800px;
+   margin-top: 30px;
+   }
+   .comocomprar{
+    color: blueviolet;
+    font-size: 60px;
+}
+.h1{
+    color: blueviolet;
+    font-size: 60px;
+}
+.h3{
+    color: blueviolet;
+    font-size: 60px;
+}
+.h4{
+    font-size: 50px;
+    text-align: center;
+    
+}
+.h2{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 600px;
+    padding: 1em;
+}
+.comocomprar{
+    margin-left: 600px;
+}
+.principio{
+    width: 600px;
+    margin-left: 950px;
+}
+.menu.icon{
+    cursor: pointer;
+    display: block;
+    padding: 50px;
+    position: fixed;
+    top: 0%;
+    left: 20px;
+    z-index: 110px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    width: 90%;
+}
+.menu{
+    position: fixed;
+    top: 45px;
+    left: 0px;
+    width: 500px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    transition: left 0.3s ease;
+}
+.menu-nav li {
+    padding: 30px;
+    border-bottom: 3px solid #ccc;
+    font-size: 40px;
+    margin: 2em;
+}
+.menu-nav{
+    list-style: none;
+    padding: 30px;
+    margin: 0;
+}
+.irresistible{
+    color: #000;
+    font-size: 50px;
+    margin-left: 1100px;
+}
+.new{
+    color: #000;
+    font-size: 100px;
+    margin-left: 990px;
+}
+.fotobeige{
+    margin-left: 600px;
+}
+.imagendos{
+    margin-left: 600px;
+}
+.imagentres{
+    margin-left: 600px;
+}
+.imagen{
+    width: 90px;
+   margin-left: -9px;
+}
+}
+   
+
+
+
+
+  
+
+
+ 
+
